@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ITC Benguiat';
+    src: local('ITC Benguiat Bold Italic'), local('ITC-Benguiat-Bold-Italic'),
+        url('BenguiatStd-BoldItalic.woff2') format('woff2'),
+        url('BenguiatStd-BoldItalic.woff') format('woff'),
+        url('BenguiatStd-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+}
