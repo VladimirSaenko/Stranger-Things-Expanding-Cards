@@ -102,18 +102,6 @@ body {
     }
 }
 
-.icon {
-    opacity: 0;
-    position: absolute;
-    bottom: 35px;
-    width: 150px;
-    height: 150px;
-}
-
-.icon.active {
-    opacity: 1;
-}
-
 @media screen and (min-width: 300px) and (max-width: 800px) {
     .container {
         flex-direction: column;
@@ -126,11 +114,6 @@ body {
 
     .panel.active h3 {
         font-size: 45px;
-    }
-
-    .icon {
-        width: 105px;
-        height: 105px;
     }
 
     body {
