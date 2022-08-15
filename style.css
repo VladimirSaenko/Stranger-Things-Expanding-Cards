@@ -16,7 +16,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-	width: 90vw;
+	width: 100%;
+    overflow: hidden;
     height: 100vh;
     background: inherit;
 }
@@ -24,7 +25,6 @@ body {
 .panel {
     display: flex;
 	background-size: auto 100%;
-	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 50px;
 	color: white;
@@ -35,6 +35,8 @@ body {
 	position: relative;
 	margin: 10px;
 	transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
+    background-position: center !important;
+    background-size: cover !important;
 }
 
 .panel h3 {
@@ -57,48 +59,43 @@ body {
 }
 
 .panel1 {
-    background: url(images/dustin.png);
-    background-position: cover;
-    background-size: cover;
+    background: url(characters/dustin.png);
 }
 
 .panel2 {
-    background: url(images/eleven_11.png);
-    background-position: cover;
-    background-size: cover;
+    background: url(characters/eleven_11.png);
 }
 
 .panel3 {
-    background: url(images/hopper.png);
-    background-position: cover;
-    background-size: cover;
+    background: url(characters/hopper.png);
 }
 
 .panel4 {
-    background: url(images/eddie_munson.png);
-    background-position: cover;
-    background-size: cover;
+    background: url(characters/eddie_munson.png);
 }
 
 .panel5 {
-    background: rgb(33, 27, 27);
-    background-position: center !important;
-    background-size: cover !important;
+    background: url(characters/vecna.png);
 }
 
-.panel5:hover {
-    color: brown;
-    text-shadow: 1px 2px 1px darkblue;
-    animation: vecna 1s infinite ease-in-out;
+.panel6 {
+    background: url(characters/max.webp);
 }
 
-@keyframes vecna {
-    0%, 20%, 40%, 60%, 80%, 100% {
-        background: url(images/vecna.png);
-    }
-    10%, 30%, 50%, 70%, 90% {
-        background: rgb(33, 27, 27);
-    }
+.panel7 {
+    background: url(characters/lucas.webp);
+}
+
+.panel8 {
+    background: url(characters/nancy.webp);
+}
+
+.panel9 {
+    background: url(characters/mike.webp);
+}
+
+.panel10 {
+    background: url(characters/will.webp);
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
