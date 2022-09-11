@@ -4,7 +4,7 @@
     padding: 0;
     user-select: none;
     box-sizing: border-box;
-    font-family: 'ITC Benguiat';
+    font-family: 'ITC Benguiat', sans-serif;
 }
 
 body {
@@ -96,6 +96,10 @@ body {
 
 .panel10 {
     background: url(characters/will.webp);
+}
+
+.panel11 {
+    background: url(characters/steve.jpg);
 }
 
 @media screen and (min-width: 300px) and (max-width: 800px) {
